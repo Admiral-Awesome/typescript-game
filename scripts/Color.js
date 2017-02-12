@@ -2,21 +2,16 @@
  * @author Admiral_Awesome
  * @description describes coror name and id;
  */
-
-class Color {
-    private name : string;
-    private color : string;
-
-    constructor (name : string, color : string) {
+var Color = (function () {
+    function Color(name, color) {
         this.name = name;
         this.color = color;
     }
-
-    getName() : string {
+    Color.prototype.getName = function () {
         return this.name;
-    }
-    getColor() : string {
+    };
+    Color.prototype.getColor = function () {
         return this.color;
-    }
-
-}
+    };
+    return Color;
+}());
