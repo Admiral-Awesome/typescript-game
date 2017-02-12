@@ -10,7 +10,8 @@ class Rectangle {
     private element: any;
     private static gameDiv: any = document.getElementById('game');
     private static levelRectangles: Rectangle[] = [];
-    constructor(color: Color, height: string, width: string, winFunc : any) {
+
+    constructor(color: Color, height: string, width: string, winFunc: any) {
         this.color = color;
         this.height = height;
         this.width = width;
@@ -30,24 +31,24 @@ class Rectangle {
             rect.addRectangle();
         });
     }
-    click(testWin : any) : any {
+    click(testWin: any): any {
         var self = this;
-        return function() {
+        return function () {
             testWin(self.color);
         }
     }
-    static drawArray(rectungles : Rectangle[]) : void {
+    static drawArray(rectungles: Rectangle[]): void {
         rectungles.forEach(function (rect) {
             rect.addRectangle();
         });
     }
-    static destroyAll() : void{
+    static destroyAll(): void {
         Rectangle.levelRectangles = [];
         Rectangle.gameDiv.innerHTML = "";
 
     }
 
-    
+
 
 
 }

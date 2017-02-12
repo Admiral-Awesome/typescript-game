@@ -22,7 +22,7 @@ class GameProcess {
             GameProcess.startTimerValue -= 0.5;
         GameProcess.setMultiple();
 
-        let level: Level = new Level(GameProcess.levelRectangles, GameProcess.levelRectangles,GameProcess.getColorNumber(),GameProcess.isMultiple,new Timer(GameProcess.startTimerValue))
+        let level: Level = new Level(GameProcess.levelRectangles, GameProcess.levelRectangles, GameProcess.getColorNumber(), GameProcess.isMultiple, new Timer(GameProcess.startTimerValue))
         level.generateLevel();
 
     }
@@ -47,10 +47,10 @@ class GameProcess {
                 // console.log(GameProcess.colorNumber)
                 GameProcess.colorNumber += 1;
             }
-           
+
         }
 
-        return  GameProcess.colorNumber;
+        return GameProcess.colorNumber;
     }
 
 

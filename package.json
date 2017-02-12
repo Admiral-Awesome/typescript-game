@@ -1,0 +1,24 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "Simple Game Reaction",
+  "main": "game.js",
+  "scripts": {
+    "create" : "tsc --out game.js -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Admiral-Awesome/typescript-game.git"
+  },
+  "keywords": [
+    "game",
+    "typescript"
+  ],
+  "author": "Admiral-Awesome",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Admiral-Awesome/typescript-game/issues"
+  },
+  "homepage": "https://github.com/Admiral-Awesome/typescript-game#readme"
+}

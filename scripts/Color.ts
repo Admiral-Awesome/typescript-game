@@ -4,18 +4,18 @@
  */
 
 class Color {
-    private name : string;
-    private color : string;
+    private name: string;
+    private color: string;
 
-    constructor (name : string, color : string) {
+    constructor(name: string, color: string) {
         this.name = name;
         this.color = color;
     }
 
-    getName() : string {
+    getName(): string {
         return this.name;
     }
-    getColor() : string {
+    getColor(): string {
         return this.color;
     }
 
