@@ -1,6 +1,6 @@
 # typescript game "Reaction"
 ## running
-to compile all scripts run "npm run create"  => you'll get game.js
+to compile all scripts run "npm run create"  => you'll get game.js <br>
 to start game "npm run browser" or db click index.html
 
 ## gameplay
