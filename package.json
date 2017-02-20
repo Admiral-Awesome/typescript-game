@@ -4,6 +4,7 @@
   "description": "Simple Game Reaction",
   "main": "game.js",
   "scripts": {
+    "start": "node app.js",
     "browser": "xdg-open index.html",
     "create": "tsc --out game.js -p .",
     "test": "echo \"Error: no test specified\" && exit 1"
